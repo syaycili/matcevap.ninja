@@ -1,0 +1,114 @@
+body{
+    background-color: #272727;
+}
+
+.govde{
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.baslik{
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+form{
+    margin: auto;
+    max-width: 450px;
+    padding: 15px;
+}
+.giris{
+
+    all: inherit;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: left;
+    border-radius: 999px;
+    padding-left: 15px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 0.2rem;
+}
+
+form label{
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    text-align: left;
+}
+
+.gonder{
+    all: inherit;
+    margin-top: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    padding: 8px;
+    width: 150px;
+    border-radius: 99px;
+    border: white 2px solid;
+}
+.gonder:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.geridon{
+    margin: auto;
+    cursor: pointer;
+    color: rgb(216, 216, 216);
+    text-align: center;
+}
+.geridon:hover{
+    color: rgb(255, 255, 255);
+}
+
+.hata{
+    color: red;
+}
+
+.input-group input{
+    padding-left: 15px;
+    height: 40px;
+    border: none;
+    border-radius: 999px !important;
+
+}.input-group input:active{
+
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+
+}.input-group input:focus{
+
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+
+}
+
+.input-group span{
+    text-align: center;
+    padding-right: 40px;
+    border:none;
+    height: 40px;
+    border-radius: 999px !important;
+    
+}
+.input-group{
+    border-radius: 999px !important;
+    background-color: white;
+}
+
+.geridon a{
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+}
+.geridon a:hover{
+    color: white;
+}

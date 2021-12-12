@@ -1,0 +1,108 @@
+body{
+    padding-top: 60px;
+    background-image: url("../img/bg.png");
+    background-color: #ffffff;
+}
+.navbar{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    box-shadow: 1px 1px 1px rgb(199, 199, 199) ;
+    height: 70px;
+    background-color: #ffffff;
+}
+.container-fluid{
+    max-width: 1400px;
+    padding: 0px 35px 0px 35px;
+}
+
+
+
+.anagovde{
+    text-align: center;
+    padding: 2rem 1rem 1.5rem 1rem;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+
+
+
+
+
+
+
+
+
+form{
+    margin: auto;
+    max-width: 330px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.giris{
+
+    all: inherit;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: black 2px solid;
+    text-align: left;
+    border-radius: 999px;
+    padding-left: 15px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 0.2rem;
+}
+
+form label{
+    margin-bottom: 0rem;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: left;
+}
+
+.gonder{
+    all: inherit;
+    margin-top: 15px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    padding: 8px;
+    width: 150px;
+    border-radius: 99px;
+    border: rgb(0, 0, 0) 2px solid;
+}
+.gonder:hover{
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.soru-giris{
+
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: black 2px solid;
+    text-align: left;
+    border-radius: 999px;
+    padding-left: 15px;
+    padding-top: 3px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 1.5rem;
+
+}
+
+.preview{
+    margin: auto;
+    width: 300px;
+    color: rgb(255, 255, 255);
+
+}
+
+.kutu{
+    margin: auto;
+}

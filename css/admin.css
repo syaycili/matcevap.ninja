@@ -1,0 +1,43 @@
+body{
+    color: white;
+    background-color: rgb(37, 37, 37)!important;
+    padding-bottom: 50px;
+    background-image: none!important;
+}
+
+
+.container{
+    margin-top: 2rem;
+
+}
+header h3{
+    width: 100%;
+}
+header{
+    margin-top: 10px;
+    display: flex;
+}
+header a{
+    text-align: right;
+    width: 70px;
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+}
+header a:hover{
+
+    color: rgb(255, 255, 255);
+}
+.content{
+    margin-top: 50px;
+    height: 500px;
+
+    border-radius: 20px;
+    text-align: center;
+}
+button{
+    margin-top: 50px;;
+}
+
+.row{
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,187 @@
+body{
+    padding-top: 60px;
+    background-image: url("../img/bg.png");
+
+}
+.navbar{
+    z-index: 10;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    box-shadow: 1px 1px 1px rgb(199, 199, 199) ;
+    height: 70px;
+    background-color: #ffffff;
+}
+.container-fluid{
+    max-width: 1400px;
+    padding: 0px 35px 0px 35px;
+}
+
+.bilgiler{
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  width: 50%;
+  margin:auto;
+}
+
+
+.govde{
+
+  text-align: left;
+    margin: auto;
+    max-width: 1100px;
+    padding: 0px 35px 0px 35px;
+}
+
+@media only screen and (max-width: 500px) {
+    .govde{
+        margin: auto;
+        padding: 0px 10px 0px 10px;
+    }
+  }
+
+
+.buton{
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+.sorular{
+    margin-top: 30px;
+    
+}
+
+
+.soru-div{
+  margin-bottom: 30px
+}
+
+
+
+.sol{
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+
+.sag{
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+.cevapla{
+  text-align: center;
+  text-decoration: none;
+  margin-top: 15px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  padding: 5px;
+  width: 120px;
+  border-radius: 99px;
+  border: rgb(0, 0, 0) 2px solid;
+}
+.cevapla:hover{
+  transition: 0.5s;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.onay_svg{
+  height: 43px; 
+  padding-bottom: 4px;
+}
+
+.card-title{
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-link{
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+  background-color: transparent !important;
+}
+
+.page-link:active {
+  color: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+  box-shadow: none;
+  
+}
+.page-link:focus {
+  color: rgb(0, 0, 0);
+  border: none;
+  box-shadow: none;
+  outline: none;
+
+}
+
+.page-link:hover{
+color: rgb(0, 0, 0);
+}
+
+
+
+
+.page-item{
+
+  border: none;
+  outline: none;
+  background-color: transparent !important;
+}
+
+.page-item:active {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  
+}
+.page-item:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+
+}
+
+#sayfa-gecisleri{
+color:  #ff9100 !important;
+filter: none !important;
+pointer-events: none;
+
+}
+
+
+
+
+
+
+
+
+
+

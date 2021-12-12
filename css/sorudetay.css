@@ -1,0 +1,101 @@
+body{
+    padding-top: 60px;
+    background-color: #272727;
+    background-image: url("../img/bg.png");
+}
+
+
+.navbar{
+    z-index: 10;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    box-shadow: 1px 1px 1px rgb(199, 199, 199) ;
+    height: 70px;
+    background-color: #ffffff;
+}
+.container-fluid{
+    max-width: 1400px;
+    padding: 0px 35px 0px 35px;
+}
+
+
+
+.anagovde{
+    text-align: center;
+    padding: 2rem 1rem 1.5rem 1rem;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+
+.soru-div{
+    margin-bottom: 30px
+  }
+  
+  
+  
+  .sol{
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  
+  
+  .sag{
+    text-align: right;
+    margin-bottom: 0px;
+  }
+  
+  .cevapla{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    padding: 5px;
+    width: 120px;
+    border-radius: 99px;
+    border: rgb(0, 0, 0) 2px solid;
+  }
+  .cevapla:hover{
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+  .onay_svg{
+    height: 43px; 
+    padding-bottom: 4px;
+  }
+  
+  .card-title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .resim{
+      margin: 15px auto auto auto;
+      width: 90%;
+      border-radius: 8px;
+  }
+  .resim:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  
+
+
+.cevaplar{
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+  
+  .cevap_baslik{
+    text-align: center;
+    margin-bottom: 3rem;
+  }
